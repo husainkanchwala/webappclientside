@@ -1,0 +1,64 @@
+/* Kanchwala, Husain    Account:  jadrn024
+ CS545, Fall 2017
+ Project 4
+*/
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+ul.tab li {float: left;}
+
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.tab li a:hover {background-color: #ddd;}
+
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+.wrapper .header {
+  padding: 40px 30px 30px 30px;
+}
+
+.wrapper .header h1 {
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height:34px;
+  color: #414848;
+  text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  margin: 30px auto;
+  margin-left: 20px;
+  width: 1200px;
+  position: static;
+  background: #f3f3f3;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.wrapper .content .image {
+  padding: 0 30px 25px 30px;
+}
+
+.wrapper .content {
+  padding: 0 30px 25px 30px;
+}
+
+
+

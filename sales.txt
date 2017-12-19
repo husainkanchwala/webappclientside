@@ -1,0 +1,10 @@
+use proj4;
+
+drop table if exists sales;
+
+create table sales(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    date varchar(50) NOT NULL,
+    sku varchar(50) NOT NULL,
+    quantity varchar(50) NOT NULL); 
+
